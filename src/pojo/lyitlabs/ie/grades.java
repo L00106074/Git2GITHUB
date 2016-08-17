@@ -9,6 +9,7 @@ public class grades {
 		private int studentid = 123456789;
 		private String moduleid = "ENTPERF";
 		private double grade = 0.0;
+      private int classid = 5867484;
 		
 		public double getGrade() {
 			return grade;
@@ -22,5 +23,8 @@ public class grades {
 		}
 		public String getModuleid() {
 			return moduleid;
+		}
+      public String getClassid() {
+			return classid;// this comment has been added 17 August
 		}
 }
